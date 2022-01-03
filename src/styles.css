@@ -1,0 +1,25 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+input {
+  width: 300px;
+  height: 100px;
+  margin: auto;
+  padding: 1rem;
+}
+h1 {
+  padding-bottom: 1rem;
+}
+.emoji {
+  cursor: pointer;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  font-size: larger;
+}
+@media only screen and(min-width:300px) {
+  input {
+    width: 1000px;
+    height: 100px;
+  }
+}
